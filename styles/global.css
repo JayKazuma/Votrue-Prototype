@@ -1,0 +1,89 @@
+/* styles/global.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* styles/global.css */
+
+/* styles/global.css */
+
+/* Colors */
+:root {
+    --green-light: #B7F8DB;
+    --yellow-light: #FFF8DC;
+    --button-green: #4CAF50;
+    --button-yellow: #FFEB3B;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--green-light);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ensure full height */
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: var(--yellow-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-green);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: var(--button-yellow);
+}
+/* global.css */
+
+/* global.css */
+
+.watermark {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 36px;
+    /* Bigger font size */
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    /* Stylish font */
+    color: var(--button-yellow);
+    text-shadow: 2px 2px 4px rgba(0, 128, 0, 0.3);
+    /* Green shadow for visibility */
+}
+/* styles/global.css */
+
